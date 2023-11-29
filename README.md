@@ -8,6 +8,8 @@ The main purpose of this repo is to provide a tap for a formula for [ytarchive](
 
 Or `brew tap omerien/ytarchive` and then `brew install ytarchive`.
 
+If you want the dev version, run `brew install omerien/ytarchive/ytarchive-dev`
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
