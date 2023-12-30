@@ -6,7 +6,6 @@ class YtarchiveDev < Formula
   sha256 '7732513b95c83c6baa740a893731309c979e21f311af37edd51d2c2c2c9dff51' 
   license 'MIT'
   head 'https://github.com/Kethsar/ytarchive.git', branch: 'dev'
-  conflicts_with "omerien/ytarchive/ytarchive", because: "both have a ytarchive binary"
 
   depends_on 'go' => :build
   depends_on 'ffmpeg'
@@ -17,6 +16,6 @@ class YtarchiveDev < Formula
   end
 
   test do
-    system bin / 'ytarchive', '--version'
+    system bin / 'ytarchive-dev', '--version'
   end
 end
