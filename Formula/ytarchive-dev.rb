@@ -3,7 +3,7 @@ class YtarchiveDev < Formula
   homepage 'https://github.com/Kethsar/ytarchive'
   url 'https://codeload.github.com/Kethsar/ytarchive/zip/refs/heads/dev'
   version '5d91faa'
-  sha256 '56da94fe0fec98e9f6324c56d8b8475e9035cf93931f511361cefa6f795a8375' 
+  sha256 '7732513b95c83c6baa740a893731309c979e21f311af37edd51d2c2c2c9dff51' 
   license 'MIT'
   head 'https://github.com/Kethsar/ytarchive.git', branch: 'dev'
   conflicts_with "omerien/ytarchive/ytarchive", because: "both have a ytarchive binary"
