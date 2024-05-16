@@ -8,7 +8,7 @@ class Ytarchive < Formula
   head 'https://github.com/Kethsar/ytarchive.git', branch: 'dev'
 
   depends_on 'go' => :build
-  depends_on 'ffmpeg'
+  depends_on 'ffmpeg' => :optional
 
   def install
     ENV['CGO_ENABLED'] = '0'
