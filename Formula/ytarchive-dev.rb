@@ -3,12 +3,12 @@ class YtarchiveDev < Formula
   homepage 'https://github.com/Kethsar/ytarchive'
   url 'https://codeload.github.com/Kethsar/ytarchive/zip/refs/heads/dev'
   version '50b95d3'
-  sha256 '8430c988aab9f1f1eb29ed8d1dae41ffd4502ee4ecde1a481a6b0ec7f74a25fb' 
+  sha256 'd615bf23b8f88a51d99d04905005475427dcbd753e51385eeff53d66cdf4768e' 
   license 'MIT'
   head 'https://github.com/Kethsar/ytarchive.git', branch: 'dev'
 
   depends_on 'go' => :build
-  depends_on 'ffmpeg'
+  depends_on 'ffmpeg' => :optional
 
   def install
     ENV['CGO_ENABLED'] = '0'
