@@ -2,7 +2,7 @@ class YtarchiveDev < Formula
   desc 'Archive live and upcoming Youtube.com live streams'
   homepage 'https://github.com/Kethsar/ytarchive'
   url 'https://codeload.github.com/Kethsar/ytarchive/zip/refs/heads/dev'
-  version '6f2ac6f'
+  version '50b95d3'
   sha256 '8430c988aab9f1f1eb29ed8d1dae41ffd4502ee4ecde1a481a6b0ec7f74a25fb' 
   license 'MIT'
   head 'https://github.com/Kethsar/ytarchive.git', branch: 'dev'
