@@ -10,6 +10,8 @@ Or `brew tap omerien/ytarchive` and then `brew install ytarchive`.
 
 If you want the dev version, run `brew install omerien/ytarchive/ytarchive-dev`
 
+If you want to install with ffmpeg (necessary to mux the final file), add --with-ffmpeg. I recommand installing it separately since it has a lot of dependencies - [here is the official download link for macOS](https://evermeet.cx/ffmpeg/).
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
