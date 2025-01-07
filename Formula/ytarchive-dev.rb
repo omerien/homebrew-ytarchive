@@ -3,7 +3,7 @@ class YtarchiveDev < Formula
   homepage 'https://github.com/Kethsar/ytarchive'
   url 'https://codeload.github.com/Kethsar/ytarchive/zip/refs/heads/dev'
   version 'fb5b172'
-  sha256 'd98fa7ac96bdf640768e8752b87c51d609b9a259c17637248f887e1d17933093' 
+  sha256 '57f9d71224f001e0301bfcd9d87c1f8358325c03d89edf7bb5c0bbf8e3881fcf' 
   license 'MIT'
   head 'https://github.com/Kethsar/ytarchive.git', branch: 'dev'
 
