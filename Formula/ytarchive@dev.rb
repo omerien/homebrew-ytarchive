@@ -1,4 +1,4 @@
-class "Ytarchive@dev" < Formula
+class YtarchiveATdev < Formula
   desc 'Archive live and upcoming Youtube.com live streams'
   homepage 'https://github.com/Kethsar/ytarchive'
   url 'https://codeload.github.com/Kethsar/ytarchive/zip/refs/heads/dev'
